@@ -11,7 +11,7 @@ public class Homework01 {
     List<String> list01 = Arrays.asList("김정우", "김호정", "이하늘", "이정희", "박정우", "박지현", "정우석", "이지수");
 
     List<String> stream01 = list01.stream()
-        .filter(name -> name.startsWith("김"))
+        .filter(name -> name.startsWith("이"))
         .collect(Collectors.toList());
 
     System.out.println("이씨성을 가진 사람"+stream01);
